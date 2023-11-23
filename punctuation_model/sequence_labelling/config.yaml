@@ -1,0 +1,18 @@
+PROJECT_NAME : 'bengali-punctuation-training'
+LANG : 'bn'
+RAW_FILE_NAME : 'indiccorp_corpus.txt'
+PROCESSED_TSV_FILENAME : 'processed.tsv'
+RAW_DATA_NAME : 'raw_text'
+DICT_NAME : 'dict'
+CLEAN_DATA_NAME : 'clean_text'
+TRAIN_CLEAN_NAME : 'train_clean'
+VALID_CLEAN_NAME : 'valid_clean'
+TEST_CLEAN_NAME : 'test_clean'
+TRAIN_NAME : 'train'
+VALID_NAME : 'valid'
+TEST_NAME : 'test'
+MODEL_NAME : 'checkpoint_best'
+TEST_RESULT_NAME : 'test_classification_report'
+SAMPLE_LEN : 2000000
+TEST_AND_VALID_LEN : 40000
+VERSION: 'punctuation_s400'
