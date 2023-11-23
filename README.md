@@ -14,14 +14,14 @@ This documentation outlines how to reproduce the 2nd place solution for Bengali.
 
 Speech Datasets:
 
-- Competiion data
+- Competition data
 - [Shrutilipi](https://ai4bharat.iitm.ac.in/shrutilipi/)
 - [MADASR](https://sites.google.com/view/respinasrchallenge2023/dataset?authuser=0)
 - [ULCA](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus)
 - [Kathbath Hard](https://github.com/AI4Bharat/vistaar) (for validation)
 
 Noise Datasets:
-- [DNS CHallenge 2020](https://github.com/microsoft/DNS-Challenge/tree/interspeech2020/master)
+- [DNS Challenge 2020](https://github.com/microsoft/DNS-Challenge/tree/interspeech2020/master)
 - [MUSAN](https://www.openslr.org/17/)
 
 Speech transcriptions should be preprocessed similar to example in `asr_model/preprocess.py`. Each dataset's labels should be stored in a `csv` file in the format `"path", "sentence", "length"`.
