@@ -4,9 +4,7 @@
 
 [Solution Write-up](https://www.kaggle.com/competitions/bengaliai-speech/discussion/447976#2486531)
 
-## 2nd place solution for HubMap 2023 Challenge hosted on Kaggle
-
-This documentation outlines how to reproduce the 2nd place solution for Bengali.AI Speech Recognition
+This documentation outlines how to reproduce the 2nd place solution for Kaggle Bengali.AI Speech Recognition
 
 ## ASR Model 
 
