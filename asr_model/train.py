@@ -411,9 +411,9 @@ def main():
         # "weights/checkpoint-27036"
     )
 
-    if CFG.stage==1:
+    if args.stage==1:
         final_dir = CFG.save_dir_stage_1
-    elif CFG.stage==2:
+    elif args.stage==2:
         final_dir = CFG.save_dir_stage_2
     else:
         final_dir = CFG.save_dir_stage_3
